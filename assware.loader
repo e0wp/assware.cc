@@ -1,14 +1,4 @@
-if (getgenv().UC_LOADED) then
-	return;
-end;
-getgenv().UC_LOADED = true;
-
-if (identifyexecutor() == "Wave") then
-	getgenv().gethui = function()
-		return game:GetService("CoreGui");
-	end;	
-end;
 
 if (game.PlaceId == 286090429) then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/e0wp/rageware.arsenal/refs/heads/main/Arsenal"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/e0wp/assware.arsenal/refs/heads/main/Arsenal"))();
 end;
